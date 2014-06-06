@@ -1,0 +1,42 @@
+
+<form action="createEmployee.php" method="post"> <br />
+<b>Company Details</b>
+<table border="0"  cellpadding="5px"  >
+<tr>
+	<td>Company Name</td>  
+	<td><input type="text" name="inputName" value="" /></td>  
+</tr>
+<tr>
+	<td>Contact Name</td> 
+	<td><input type="text" name="inputContactName" value="" /> </td> 
+</tr>
+<tr>
+	<td>Contact Email</td> 
+	<td><input type="text" name="inputEmail" value="" /> </td> 
+</tr>
+<tr>
+	<td>Address 1</td> 
+	<td><input type="text" name="inputAddress" value="" /></td> 
+</tr>
+
+<tr>
+	<td>Telephone</td> 
+	<td><input type="text" name="inputTelephone" value="" /></td> 
+</tr>
+<tr>
+	<td>Work Week Start</td>
+	<td><select name="inputPayrollStartDay">
+<option value="0">Sunday</option>
+<option value="1">Monday</option>
+</select></td>
+</tr>
+<tr>
+	<td>Notes</td> 
+	<td><textarea name="inputNotes" rows="2" cols="20"></textarea></td>
+</tr>
+<tr>
+	<td></td>
+	<td><input type="submit" name="submit" value="Save" /></tr>
+</tr>
+</table>
+?>
